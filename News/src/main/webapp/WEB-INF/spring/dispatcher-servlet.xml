@@ -12,7 +12,7 @@
 
   <mvc:annotation-driven conversion-service="conversionService"/>
   
-  <context:component-scan base-package="ru.coffeeplanter.newsfeed.controllers"/>
+  <context:component-scan base-package="com.ilyjava.News.controllers"/>
   
   <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
   	<property name="prefix" value="/WEB-INF/views/"/>
